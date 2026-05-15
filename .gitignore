@@ -1,0 +1,20 @@
+# Virtual environments
+ml_venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# TensorFlow / Keras models
+*.h5
+*.keras
+
+# Large datasets
+dataset/
+data/
+images/

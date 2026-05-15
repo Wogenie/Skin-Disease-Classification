@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Disease Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>🧬 Skin Disease Detection System</h1>
+    </header>
+    <p id="intro">Upload an image and get AI-powered prediction</p>
+    
+    <main class="container">
+        <!-- Upload Section -->
+        <section class="card">
+            <h2>📤 Upload Image</h2>
+    
+            <input type="file" id="imageInput" accept="image/*">
+    
+            <div class="preview-box">
+                <img id="preview" alt="Preview">
+            </div>
+    
+            <button id="predictBtn">🔍 Predict</button>
+        </section>
+    
+        <!-- Result Section -->
+        <section class="card">
+            <h2>📊 Prediction Result</h2>
+            <div id="result">No prediction yet.</div>
+        </section>
+    
+        <!-- Loader -->
+        <div id="loader" class="hidden">Processing...</div>
+    
+    </main>
+    <footer>
+      
+    </footer>
+    
+    
+    
+    <script src="home.js"></script>
+
+
+</body>
+</html>

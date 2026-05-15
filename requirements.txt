@@ -1,0 +1,13 @@
+# core apis
+fastapi
+uvicorn
+pydantic
+
+# ml/ data
+numpy 
+# pandas
+tensorflow == 2.10
+
+pillow 
+
+# python-multipart
